@@ -1,10 +1,8 @@
-'use strict';
-
 /**
  * Created by niuyuanqiang on 16/8/8.
  */
-var ADD_TODO = Symbol();
-var UPDATE_TODO = Symbol();
+const ADD_TODO = Symbol();
+const UPDATE_TODO = Symbol();
 
 function doaction(actionType) {
   switch (actionType) {
@@ -12,7 +10,7 @@ function doaction(actionType) {
       console.log('add');
       break;
     case UPDATE_TODO:
-      console.log('update');
+      console.log('update')
   }
 }
 
