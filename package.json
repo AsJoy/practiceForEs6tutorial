@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
+  "keywords": ["babel", "babel-polyfill", "es6"],
   "scripts": {
     "build": "babel --watch src -d lib"
   },
