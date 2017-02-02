@@ -1,6 +1,9 @@
 /**
  * Created by niuyuanqiang on 16/8/3.
  */
+
+import 'regenerator-runtime/runtime'
+
 function* generator (x, y) {
   yield x;
   yield y;

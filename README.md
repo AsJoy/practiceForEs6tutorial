@@ -7,3 +7,5 @@
 1、 npm install <br/>
 2、 运行 npm run build 或者 babel --watch src:stylesheet <br/>
 
+结构赋值（distruction assignment）
+babel-plugin-extensible-destructuring
