@@ -21,6 +21,8 @@
     "webpack": "^1.13.1"
   },
   "dependencies": {
-    "regenerator-runtime": "^0.10.1"
+    "co": "^4.6.0",
+    "regenerator-runtime": "^0.10.1",
+    "thunkify": "^2.1.2"
   }
 }
